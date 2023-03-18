@@ -7,6 +7,7 @@ You can install Singleton SQLite3 using npm:
 ```
 npm install singleton-sqlite3
 ```
+npm link: https://www.npmjs.com/package/singleton-sqlite3
 
 ## Usage
 Here are some examples of how to use the `singleton-sqlite3` module.
