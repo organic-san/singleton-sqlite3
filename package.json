@@ -1,0 +1,25 @@
+{
+  "name": "singleton-sqlite3",
+  "version": "0.0.1",
+  "description": "A singleton pattern sqlite3 interface program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organic-san/singleton-sqlite3.git"
+  },
+  "keywords": [
+    "sqlite3"
+  ],
+  "author": "organic_san",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/organic-san/singleton-sqlite3/issues"
+  },
+  "homepage": "https://github.com/organic-san/singleton-sqlite3#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
