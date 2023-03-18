@@ -167,7 +167,7 @@ Selects records from a table.
 #### Returns:
 A promise that resolves with an array of records matching the query.
 
-#### `db.selectAll(tableName: string): Promise<any[]>
+### `db.selectAll(tableName: string): Promise<any[]>`
 Selects all records from a table.`
 #### Parameters:
 `tableName`: The name of the table to select records from.
