@@ -152,7 +152,7 @@ export class Database {
      * @returns array of data
      * @example select('example', 'age=\'25\'');
      */
-    public async select(tableName: string, columns: string[], where?: string, limit?: number) {
+    public async select(tableName: string = '*', columns: string[], where?: string, limit?: number) {
         const selectedColumns = columns.length ? columns.join(', ') : '*';
         const whereClause = where ? `WHERE ${where}` : '';
         const limitClause = limit ? `LIMIT ${limit}` : '';

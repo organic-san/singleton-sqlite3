@@ -1,6 +1,6 @@
 {
   "name": "singleton-sqlite3",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A singleton pattern sqlite3 interface program.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "sqlite3"
   ],
-  "author": "organic_san",
+  "author": "organic_san <yuki.0710.happy@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/organic-san/singleton-sqlite3/issues"
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/organic-san/singleton-sqlite3#readme",
   "dependencies": {
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "node-readme": "^0.1.9"
   }
 }

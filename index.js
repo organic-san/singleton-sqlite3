@@ -149,7 +149,7 @@ class Database {
      * @returns array of data
      * @example select('example', 'age=\'25\'');
      */
-    async select(tableName, columns, where, limit) {
+    async select(tableName = '*', columns, where, limit) {
         const selectedColumns = columns.length ? columns.join(', ') : '*';
         const whereClause = where ? `WHERE ${where}` : '';
         const limitClause = limit ? `LIMIT ${limit}` : '';
