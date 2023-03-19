@@ -178,5 +178,11 @@ A promise that resolves with an array of all records in the table.
 ### `close()`
 Close the database connection.
 
+## Contact
+You can contact me via the following methods:
+- Twitter: @organic_san_
+- Discord: organic_san_2#2202
+- Discord server: [https://discord.gg/hveXGk5Qmz](https://discord.gg/hveXGk5Qmz)
+
 ## License
 singleton-sqlite3 is released under the MIT License.
